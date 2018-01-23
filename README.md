@@ -1,7 +1,7 @@
 # Keep
 ### React Nones
 ## Demo
-[Demo](https://olegbilyk.github.io/keep/)
+[Demo](https://olegbilyk.github.io/keep/index.html/)
 
 #### Installation
 

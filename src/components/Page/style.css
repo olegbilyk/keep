@@ -1,0 +1,28 @@
+@font-face {
+  font-family: Marmelad;
+  src: local('Marmelad'), url(../../fonts/Marmelad.woff2) format("woff2"), url(../../fonts/Marmelad.ttf) format("truetype");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.pageContent {
+  position: relative;
+  display: grid;
+  grid-template-areas: 'PlanPage';
+  grid-template-columns: 1fr;
+  height: 100vh;
+  z-index: 98;
+  transform: translate3d(0, 0, 0);
+  transition: all 0.1s ease;
+  font-size: 16px;
+  line-height: 1.6;
+  letter-spacing: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}

@@ -1,0 +1,63 @@
+{
+  "name": "keep",
+  "version": "0.1.0",
+  "description": "React Keep",
+  "main": "index.js",
+  "scripts": {
+    "start": "./node_modules/.bin/webpack-dev-server --hot --inline",
+    "build": "./node_modules/.bin/webpack -p",
+    "eslint": "./node_modules/.bin/eslint ./src/**/*.js",
+    "stylelint": "./node_modules/.bin/stylelint ./src/**/*.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/olegbilyk/keep.git"
+  },
+  "keywords": [],
+  "author": "Oleg Bilyk <oleg.bilyk.pro@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/olegbilyk/keep/issues"
+  },
+  "homepage": "https://github.com/olegbilyk/keep#readme",
+  "dependencies": {
+    "immutable": "^3.8.2",
+    "moment": "^2.19.4",
+    "prop-types": "^15.6.0",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-redux": "^5.0.6",
+    "redux": "^3.7.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "css-loader": "^0.28.7",
+    "eslint": "^4.13.1",
+    "eslint-config-standard": "^11.0.0-beta.0",
+    "eslint-config-standard-react": "^5.0.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-node": "^5.2.1",
+    "eslint-plugin-promise": "^3.6.0",
+    "eslint-plugin-react": "^7.5.1",
+    "eslint-plugin-standard": "^3.0.1",
+    "file-loader": "^1.1.5",
+    "postcss": "^6.0.14",
+    "postcss-cssnext": "^3.0.2",
+    "postcss-loader": "^2.0.9",
+    "style-loader": "^0.19.0",
+    "stylelint": "^8.4.0",
+    "stylelint-config-standard": "^18.0.0",
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.9.7"
+  },
+  "browserslist": [
+    "last 2 Chrome versions",
+    "last 2 Safari versions",
+    "last 2 Firefox versions",
+    "last 2 Edge versions"
+  ]
+}

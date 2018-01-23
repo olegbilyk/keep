@@ -1,0 +1,123 @@
+.headerWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 8px 0;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 550px;
+  padding: 20px 20px 30px;
+  background: #f8f8f8;
+}
+
+.input,
+.textarea,
+.input::placeholder,
+.textarea::placeholder {
+  line-height: 1.45;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+
+.input,
+.input::placeholder {
+  font-family: Marmelad, sans-serif;
+  font-size: 16px;
+  color: #b9b8b8;
+}
+
+.textarea,
+.textarea::placeholder {
+  font-size: 14px;
+  color: #cdcccc;
+}
+
+.input,
+.textarea {
+  transition: all 0.2s ease;
+  border: 1px solid #e2e2e2;
+  box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0);
+  background-color: #fff;
+}
+
+.input {
+  padding: 11px 20px;
+  color: #111;
+}
+
+.textarea {
+  height: 178px;
+  padding: 11px 20px 20px;
+  margin-bottom: 20px;
+  resize: none;
+  overflow: auto;
+  color: #2a2a2a;
+}
+
+.input:focus,
+.textarea:focus {
+  outline: none;
+  box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+.buttonWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+
+.btnPost {
+  padding: 0;
+  border: none;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0;
+  text-transform: uppercase;
+  background: transparent;
+  border-radius: 3px;
+  color: #fff;
+  transition: all 0.1s ease;
+  cursor: pointer;
+  outline: none;
+  overflow: hidden;
+}
+
+.btnPost span {
+  display: block;
+  padding: 15px 21px 16px;
+  transform: translate3d(0, 0, 0);
+  box-shadow: inset 0 -3px 0 0 rgba(0, 0, 0, 0.1);
+  border-radius: 3px;
+  background-color: #8e49e8;
+  transition: all 0.1s ease;
+}
+
+.btnPostDisabled span {
+  box-shadow: inset 0 0 0 0 rgba(0, 0, 0, 0.1);
+  background-color: rgba(164, 72, 252, 0.54);
+}
+
+.btnPost:not(.btnPostDisabled):hover span {
+  background-color: #a14eff;
+}
+
+.btnPost:not(.btnPostDisabled):active span {
+  transform: translate3d(0, 3px, 0);
+  box-shadow: inset 0 0 0 0 rgba(0, 0, 0, 0.1);
+}
+
+.btnPostDisabled {
+  color: #fff;
+  cursor: not-allowed;
+}
+
+@media (min-width: 375px) {
+  .socialList {
+    padding: 20px 20px 8px;
+  }
+}

@@ -1,0 +1,32 @@
+.PlanPage {
+  grid-area: PlanPage;
+  background-image: linear-gradient(to bottom, #68eacc 0%, #497be8 100%);
+  background-color: #68eacc;
+  padding: 15px 20px 20px 20px;
+  overflow-y: auto;
+}
+
+.Table {
+  margin-bottom: 34px;
+}
+
+.topBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.tableTitle {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: Marmelad, sans-serif;
+  font-size: 30px;
+  color: #111;
+}
+
+@media (min-width: 768px) {
+  .tableTitle {
+    font-size: 45px;
+  }
+}

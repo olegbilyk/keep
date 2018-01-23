@@ -1,0 +1,35 @@
+.list {
+  display: flex;
+  flex-wrap: nowrap;
+  margin: 0;
+  padding: 0;
+}
+
+.listItem {
+  display: flex;
+  align-items: center;
+  margin-right: 16px;
+  list-style: none;
+}
+
+.listItem:last-child {
+  margin-right: 0;
+}
+
+.iconWrapper {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  margin-right: 6px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 20px;
+  background: #111;
+}
+
+.text {
+  font-family: Marmelad, sans-serif;
+  font-size: 15px;
+}
